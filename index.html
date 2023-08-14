@@ -35,11 +35,13 @@
             <div class="row">
 
               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6"><label class="form-label">Card#</label><input
-                  type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXXXXXXXXXXX">
+                  type="text" class="form-control" id="card" placeholder="XXXXXXXXXXXXXXXXXXXXXXX" data-target="#invalidAlert"name="card" required>
+                  <div class="invalid-feedback"></div>
               </div>
 
               <div class="col-2"><label class="form-label">CVC#</label><input type="text" class="form-control"
-                  placeholder="0000">
+                id="cvc" placeholder="0000" data-target="#invalidAlert"name="cvc" required>
+                <div class="invalid-feedback"></div>
               </div>
 
               <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4"><label class="form-label">Amount</label>
@@ -49,7 +51,7 @@
               </div>
 
               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2"><label class="form-label">First Name</label><input
-                  type="text" class="form-control" id="uname" placeholder="Enter username" data-target="#invalidAlert"name="uname" required>
+                  type="text" class="form-control" id="uname" placeholder=" " data-target="#invalidAlert"name="uname" required>
                 <div class="invalid-feedback"></div>
 
 
@@ -57,7 +59,8 @@
               </div>
 
               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2"><label class="form-label">Last Name</label><input
-                  type="text" class="form-control">
+                  type="text" class="form-control"id="uname" placeholder=" " data-target="#invalidAlert"name="uname" required>
+                  <div class="invalid-feedback"></div>
               </div>
 
               <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2"><label class="form-label">City</label><input
